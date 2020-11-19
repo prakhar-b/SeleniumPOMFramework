@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.LogInTest">
+        <methods>
+          <include name="verifyLogInWithInvalidCredentials"/>
+        </methods>
+      </class> <!-- TestCases.LogInTest -->
+      <class name="TestCases.TopMenuTest">
+        <methods>
+          <include name="diagnosticsButtontest"/>
+          <include name="pharmacyButtontest"/>
+          <include name="consultButtontest"/>
+          <include name="doctorsButtontest"/>
+          <include name="homeButtontest"/>
+        </methods>
+      </class> <!-- TestCases.TopMenuTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression] -->

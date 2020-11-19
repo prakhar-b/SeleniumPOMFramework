@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="10" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="115773" started-at="2020-11-17T11:11:29Z" finished-at="2020-11-17T11:13:24Z">
+    <groups>
+      <group name="regression">
+        <method signature="LogInTest.verifyLogInWithInvalidCredentials()[pri:0, instance:TestCases.LogInTest@59662a0b]" name="verifyLogInWithInvalidCredentials" class="TestCases.LogInTest"/>
+        <method signature="TopMenuTest.consultButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="consultButtontest" class="TestCases.TopMenuTest"/>
+        <method signature="TopMenuTest.diagnosticsButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="diagnosticsButtontest" class="TestCases.TopMenuTest"/>
+        <method signature="TopMenuTest.doctorsButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="doctorsButtontest" class="TestCases.TopMenuTest"/>
+        <method signature="TopMenuTest.homeButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="homeButtontest" class="TestCases.TopMenuTest"/>
+        <method signature="TopMenuTest.pharmacyButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="pharmacyButtontest" class="TestCases.TopMenuTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test" duration-ms="115773" started-at="2020-11-17T11:11:29Z" finished-at="2020-11-17T11:13:24Z">
+      <class name="TestCases.TopMenuTest">
+        <test-method status="PASS" signature="consultButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="consultButtontest" duration-ms="17559" started-at="2020-11-17T16:41:55Z" finished-at="2020-11-17T16:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consultButtontest -->
+        <test-method status="PASS" signature="diagnosticsButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="diagnosticsButtontest" duration-ms="19980" started-at="2020-11-17T16:42:12Z" finished-at="2020-11-17T16:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diagnosticsButtontest -->
+        <test-method status="PASS" signature="doctorsButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="doctorsButtontest" duration-ms="18774" started-at="2020-11-17T16:42:32Z" finished-at="2020-11-17T16:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doctorsButtontest -->
+        <test-method status="PASS" signature="homeButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="homeButtontest" duration-ms="16331" started-at="2020-11-17T16:42:51Z" finished-at="2020-11-17T16:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeButtontest -->
+        <test-method status="PASS" signature="pharmacyButtontest()[pri:0, instance:TestCases.TopMenuTest@1a482e36]" name="pharmacyButtontest" duration-ms="16774" started-at="2020-11-17T16:43:08Z" finished-at="2020-11-17T16:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pharmacyButtontest -->
+      </class> <!-- TestCases.TopMenuTest -->
+      <class name="TestCases.LogInTest">
+        <test-method status="PASS" signature="verifyLogInWithInvalidCredentials()[pri:0, instance:TestCases.LogInTest@59662a0b]" name="verifyLogInWithInvalidCredentials" duration-ms="26327" started-at="2020-11-17T16:41:29Z" finished-at="2020-11-17T16:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInWithInvalidCredentials -->
+      </class> <!-- TestCases.LogInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression -->
+</testng-results>
