@@ -3,12 +3,41 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
+      <class name="TestCases.SearchHospitalTest">
+        <methods>
+          <include name="getHospitalsNmaes"/>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- TestCases.SearchHospitalTest -->
       <class name="TestCases.CorporateWellnessTest">
         <methods>
           <include name="corporateWellnessTest"/>
           <include name="flushReports"/>
         </methods>
       </class> <!-- TestCases.CorporateWellnessTest -->
+      <class name="TestCases.LogInTest">
+        <methods>
+          <include name="verifyLogInWithvalidCredentials"/>
+          <include name="verifyLogInWithInvalidCredentials"/>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- TestCases.LogInTest -->
+      <class name="TestCases.DiagnosticTest">
+        <methods>
+          <include name="topCitiesTest"/>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- TestCases.DiagnosticTest -->
+      <class name="TestCases.TopMenuTest">
+        <methods>
+          <include name="diagnosticsButtontest"/>
+          <include name="pharmacyButtontest"/>
+          <include name="consultButtontest"/>
+          <include name="doctorsButtontest"/>
+          <include name="homeButtontest"/>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- TestCases.TopMenuTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

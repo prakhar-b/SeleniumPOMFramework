@@ -1,0 +1,13 @@
+PageClasses\DiagnosticsPage.class
+PageClasses\PharmacyPage.class
+utilities\DateUtil.class
+baseClasses\BaseTestClass.class
+PageClasses\DoctorPage.class
+PageClasses\CorporateWellnessPage.class
+PageClasses\LandingPage.class
+PageClasses\SearchPage.class
+utilities\ExcelData.class
+baseClasses\PageBaseClass.class
+PageClasses\ConsultantPage.class
+utilities\ExtentReportManager.class
+PageClasses\LogInPage.class

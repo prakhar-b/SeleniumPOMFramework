@@ -48,10 +48,10 @@ public CorporateWellnessPage(WebDriver driver, ExtentTest logger) {
    }*/
    
    logger.log(Status.INFO, "Entering details to schedule");
-   name.sendKeys("Debashish");
+   name.sendKeys("John Snow");
    organizationName.sendKeys("CTS");
-   emailId.sendKeys("debashish.naik2gmail.com");
-   phoneNo.sendKeys("707704393");
+   emailId.sendKeys("abcd@gmail.com");
+   phoneNo.sendKeys("9876543210");
    
    schedule.click();
    takeScreenShotOnFailure();
